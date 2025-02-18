@@ -11,7 +11,7 @@ Asegúrate de tener lo siguiente instalado:
 - [Node.js](https://nodejs.org) (para la compilación de Tailwind CSS)
 - [Tailwind CSS](https://tailwindcss.com) (se utiliza para los estilos de la página)
 
-### Pasos para configurar el proyecto localmente
+## Pasos para configurar el proyecto localmente
 
 1. **Clonar el repositorio**
 
@@ -20,7 +20,7 @@ Asegúrate de tener lo siguiente instalado:
    ```bash
    git clone https://github.com/tu-usuario/scraping-web.git
    
-## Instalar dependencias
+# Instalar dependencias
 ### Dirígete al directorio del proyecto y ejecuta el siguiente comando para instalar las dependencias de Tailwind CSS:
 
 cd scraping-web
@@ -35,9 +35,9 @@ npx tailwindcss build src/styles.css -o output.css
 
 ### Si te da problemas durante el proceso de instalación prueba a installar una versión diferente como esta: "npm install tailwindcss@3". 
 
-### Abrir el proyecto en el navegador
-### Una vez que las dependencias estén instaladas y Tailwind CSS esté compilado, abre el archivo index.html en tu navegador. 
-### Esto debería mostrarte la interfaz donde puedes ingresar la URL y el XPath para realizar el scraping.
+## Abrir el proyecto en el navegador
+## Una vez que las dependencias estén instaladas y Tailwind CSS esté compilado, abre el archivo index.html en tu navegador. 
+## Esto debería mostrarte la interfaz donde puedes ingresar la URL y el XPath para realizar el scraping.
 
 open index.html  # o abre el archivo directamente en tu navegador
 
